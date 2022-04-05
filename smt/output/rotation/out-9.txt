@@ -1,0 +1,14 @@
+16 16 
+10
+3 3 10 10 False
+3 4 9 4 True
+3 5 0 7 True
+3 6 0 13 True
+3 7 6 13 True
+3 8 5 7 True
+3 10 0 10 True
+3 12 13 4 False
+4 7 9 0 True
+7 9 0 0 True
+========== 
+12.482 s

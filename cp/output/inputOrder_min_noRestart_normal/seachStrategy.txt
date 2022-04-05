@@ -1,0 +1,5 @@
+solve 
+::int_search([y[r] | r in circuitOrder], input_order, indomain_min,complete)
+:: int_search([x[r] | r in circuitOrder], input_order, indomain_min,complete)
+::int_search([h], input_order, indomain_min, complete)
+minimize h;

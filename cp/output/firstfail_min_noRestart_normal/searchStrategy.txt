@@ -1,0 +1,5 @@
+solve 
+::int_search(y,first_fail, indomain_min,complete)
+:: int_search(x,first_fail, indomain_min,complete)
+::int_search([h],first_fail, indomain_min, complete)
+minimize h;

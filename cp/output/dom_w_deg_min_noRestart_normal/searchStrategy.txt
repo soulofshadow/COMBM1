@@ -1,0 +1,5 @@
+solve 
+::int_search(y,dom_w_deg, indomain_min,complete)
+:: int_search(x,dom_w_deg, indomain_min,complete)
+::int_search([h],dom_w_deg, indomain_min, complete)
+minimize h;

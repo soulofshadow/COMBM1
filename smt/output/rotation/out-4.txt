@@ -1,0 +1,11 @@
+11 11 
+7
+3 3 8 3 False
+3 4 0 7 False
+3 5 8 6 False
+3 6 0 0 True
+5 3 6 0 False
+5 4 3 7 False
+8 4 0 3 False
+========== 
+1.677 s

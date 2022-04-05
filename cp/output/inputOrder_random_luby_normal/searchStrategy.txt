@@ -1,0 +1,6 @@
+solve 
+::int_search([y[r] | r in circuitOrder], input_order, indomain_random,complete)
+:: int_search([x[r] | r in circuitOrder], input_order, indomain_random,complete)
+::int_search([h], input_order, indomain_random, complete)
+::restart_luby(100)
+minimize h;
