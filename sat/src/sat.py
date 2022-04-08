@@ -116,8 +116,6 @@ def build_model(w,n,width,height,data):
         for j in range(n) for i in range(n)]
 
     constraints = domain_c +\
-                    cumulative_x +\
-                    cumulative_y +\
                     nooverlap_c +\
                     nogap_c +\
                     symmetry_breaking_c +\
@@ -180,7 +178,7 @@ def write_file(r):
 def run(instance):
     w,n,width,height,data = read_file(instance)
     s = Solver()
-    s.set(timeout = 300000)
+    s.set(timeout =300000)
     x, y, h, constraints = build_model(w,n,width,height,data)
     s.add(constraints)
     

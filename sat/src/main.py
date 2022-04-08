@@ -1,7 +1,7 @@
 import sat as sat
 import sat_rotatin as sat_r
 
-instance = 2
+instance = 1
 
 result = sat.run(instance)
 if result is not None:
@@ -11,7 +11,7 @@ if result is not None:
 
 
 # result = sat_r.run(instance)
-# if result is not None:
+# if result is not None:exit
 #     print(result)
 #     sat_r.plot_result(result)
 #     sat_r.write_file(result)
@@ -22,7 +22,7 @@ if result is not None:
 #     result = sat.run(i)
 #     if result is not None:
 #         print(result)
-#         #sat.plot_result(result)
+#         sat.plot_result(result)
 #         sat.write_file(result)
 
 # for i in range(1, 41):
